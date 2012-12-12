@@ -1,0 +1,179 @@
+@import url(../reindeer/styles.css);
+
+.economy-view hr {
+    border: 0;
+    color: black;
+    background: black;
+    height: 2px;
+
+}
+
+.nypslogo {
+    font-family: "Lucida Console", Monaco, monospace;
+    font-size: 32px;
+    text-shadow: #fafafa 1px 1px 0;
+    text-align: center;
+}
+
+/* Top Panel */
+.toppanel {
+    background: #e4e4e4 url(images/gradient.png) repeat-x bottom left;
+}
+
+.toppanel .v-button {
+    display: block;
+    height: 55px;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.toppanel .v-button img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.toppanel .v-button span {
+    font-size: x-small;
+    text-shadow: #fafafa 1px 1px 0;
+}
+
+.toppanel .v-button .v-button-wrap,
+.toppanel .v-disabled.v-button .v-button-wrap {
+    background: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    /*
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    */
+}
+
+.toppanel .v-button:active .v-button-wrap,
+.toppanel .v-button.v-pressed .v-button-wrap {
+    background: transparent;
+    /*
+        -webkit-box-shadow: none;
+        -moz-box-shadow: none;
+        box-shadow: none;
+    */
+}
+
+/* MIN-504 Stuff */
+.dividerbar {
+    font-size: 4px;
+    background: url(images/dividerbar.png) repeat-x center left;
+}
+
+.economy-title {
+    font-size: large;
+    font-weight: bold;
+}
+
+.budget-column {
+    width: 120px;
+}
+
+.grouped-budget {
+    margin-top: 20px;
+}
+
+.grouped-budget-title {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.grouped-budget-header {
+    font-weight: bold;
+    font-size: small;
+}
+
+.grouped-budget .sum {
+    font-weight: bold;
+    font-size: small;
+}
+
+.budget-group-item-property {
+    font-size: small;
+}
+
+.budget-group-total-sum-property {
+    font-size: small;
+    font-weight: bold;
+}
+
+.total-sum-first-column {
+    margin-left: 20px;
+}
+
+.section-title {
+    font-size: medium;
+    font-weight: bold;
+}
+
+.economy-view .amount-to-obtain-view {
+    margin-top: 20px;
+}
+
+.docpreview .navigation .v-button {
+    display: block;
+    height: 32px;
+    background: transparent;
+    border: none;
+    text-align: center;
+}
+
+.docpreview .navigation .v-button img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.docpreview .navigation .v-button  span {
+    font-size: x-small;
+    text-shadow: #fafafa 1px 1px 0;
+}
+
+.docpreview .navigation .v-button .v-button-wrap,
+.docpreview .navigation .v-disabled.v-button .v-button-wrap {
+    background: transparent;
+    border: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.docpreview .navigation .v-button:active .v-button-wrap,
+.docpreview .navigation .v-button.v-pressed .v-button-wrap {
+    background: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+
+.v-textfield-right-align {
+    text-align: right;
+}
+
+.v-label-right-align {
+    text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.error {
+    background: #ffc0cb;
+}
+
+
